@@ -12,7 +12,11 @@ class Post {
     required this.body,
   });
 
-  //JSON থেকে অবজেক্টে কনভার্ট
+  
+
+  // this one is json  =-=-=-=-=-=-=-=-=-===-=-=
+
+  
   factory Post.fromJson(Map<String, dynamic> json) {
     return Post(
       userId: json['userId'],
